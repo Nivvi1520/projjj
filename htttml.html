@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+     <center>
+        <h1><u>HTML</u></h1>
+     </center>
+    <p>
+        HTML stands for Hypertext Markup Language, and it is the most widely used language to
+           write Web Pages.
+            Hypertext refers to the way in which Web pages (HTML documents) are linked
+           together. Thus, the link available on a webpage is called Hypertext.
+             As its name suggests, HTML is a Markup Language which means you use HTML to
+          simply "mark-up" a text document with tags that tell a Web browser how to structure
+          it to display.
+          Originally, HTML was developed with the intent of defining the structure of documents like
+             headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information
+           between researchers.
+            Now, HTML is being widely used to format web pages with the help of different tags available
+                in HTML language.
+              Basic HTML Documentor let's save it in an HTML file test.htm using your favorite text
+editor. Finally open it using a web browser like Internet Explorer or Google Chrome, or Firefox
+etc. It must show the following output:
+1. HTML OVERVIEW
+HTML
+17
+HTML Tags
+As told earlier, HTML is a markup language and makes use of various tags to format the
+content. These tags are enclosed within angle braces. Except few tags, most
+of the tags have their corresponding closing tags. For example,  has its closing
+tagand tag has its closing tag  tag etc.
+Above example of HTML document uses the following tags:
+Tag Description
+This tag defines the document type and HTML version.
+
+This tag encloses the complete HTML document and mainly comprises
+of document header which is represented by  and
+document body which is represented by tags.
+ tag represents the document's header which can keep other HTML
+tags like etc.
+ The tag is used inside the  tag to mention the
+document title.
+This tag represents the document's body which keeps other HTML tags
+like etc.
+This tag represents the heading.
+HTML
+18
+This tag represents a paragraph.
+To learn HTML, you will need to study various tags and understand how they behave, while
+formatting a textual document. Learning HTML is simple as users have to learn the usage of
+different tags in order to format the text or images to make a beautiful webpage.
+World Wide Web Consortium (W3C) recommends to use lowercase tags starting from HTML
+4.
+HTML Document Structure
+A typical HTML document will have the following structure:
+Document declaration tag
+
+We will study all the header and body tags in subsequent chapters, but for now let's see what
+is document declaration tag.
+The  Declaration
+The  declaration tag is used by the web browser to understand the version of
+the HTML used in the document. Current version of HTML is 5 and it makes use of the following
+declaration:
+There are many other declaration types which can be used in HTML document depending on
+what version of HTML is being used. We will see more details on this while discussingtag along with other HTML tags.
+Heading Tags
+Any document starts with a heading. You can use different sizes for your headings. HTML also
+has six levels of headings, which use the elements While displaying any heading, browser adds one line before and one line after that
+heading.
+Example
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+This will produce the following result:
+2. HTMLBASIC TAGS
+HTML
+20
+Paragraph Tag
+The  tag offers a way to structure your text into different paragraphs. Each paragraph of
+text should go in between an opening and a closing  tag as shown below in the
+example:
+Example
+
+This will produce the following result:
+Here is a first paragraph of text.
+Here is a second paragraph of text.
+Here is a third paragraph of text.
+HTML
+21
+Line Break Tag
+Whenever you use the  element, anything following it starts from the next line. This
+tag is an example of an empty element, where you do not need opening and closing tags, as
+there is nothing to go in between them.
+The tag has a space between the characters br and the forward slash. If you omit this
+space, older browsers will have trouble rendering the line break, while if you miss the forward
+slash character and just use it is not valid in XHTML.
+Example
+
+This will produce the following result:
+Hello
+You delivered your assignment on time.
+Thanks
+Mahnaz
+Centering Content
+You can use  tag to put any content in the center of the page or any table cell.
+Example
+
+
+This will produce the following result:
+This text is not in the center.
+This text is in the center.
+Horizontal Lines
+Horizontal lines are used to visually break-up sections of a document. The  tag creates
+a line from the current position in the document to the right margin and breaks the line
+accordingly.
+For example, you may want to give a line between two paragraphs as in the given example
+below:
+Example
+This will produce the following result:
+This is paragraph one and should be on top
+This is paragraph two and should be at bottom
+Again tag is an example of the empty element, where you do not need opening and
+closing tags, as there is nothing to go in between them.
+The  element has a space between the characters hr and the forward slash. If you
+omit this space, older browsers will have trouble rendering the horizontal line, while if you
+miss the forward slash character and just use it is not valid in XHTML
+Preserve Formatting
+Sometimes, you want your text to follow the exact format of how it is written in the HTML
+document. In these cases, you can use the preformatted tag 
+Any text between the opening  tag and the closing tag will preserve the
+formatting of the source document.
+Try using the same code without keeping it inside tags
+Nonbreaking Spaces
+Suppose you want to use the phrase "12 Angry Men." Here, you would not want a browser to
+split the "12, Angry" and "Men" across two lines:
+An example of this technique appears in the movie "12 Angry Men."
+In cases, where you do not want the client browser to break text, you should use a
+nonbreaking space entity instead of a normal space. For example, when coding the
+"12 Angry Men" in a paragraph, you should use something similar to the following code:
+Example
+
+An HTML element is defined by a starting tag. If the element contains other content, it ends
+with a closing tag, where the element name is preceded by a forward slash as shown below
+with few tags:
+Start Tag Content End Tag
+
+    </p>
+</body>
+</html>
